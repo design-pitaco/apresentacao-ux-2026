@@ -397,7 +397,7 @@ const en = {
   "Fonte: Globo/Offerwise, Pesquisa Bets 2025.": "Source: Globo/Offerwise, 2025 Betting Survey.",
   "Fontes: Globo/Offerwise, ANBIMA/Datafolha e Datafolha/Poder360.": "Sources: Globo/Offerwise, ANBIMA/Datafolha and Datafolha/Poder360.",
   "Fonte: Procon-SP Pesquisa Comportamental Jogos e Apostas 2026.": "Source: Procon-SP 2026 Behavioral Survey on Games and Betting.",
-  "Fontes: Senacon/MJSP e análise a partir do brief.": "Sources: Senacon/MJSP and analysis from the brief.",
+  "Fontes: Senacon/MJSP.": "Sources: Senacon/MJSP.",
   "Fonte: Reclame Aqui, guia de apostas seguras 2026.": "Source: Reclame Aqui, 2026 safe betting guide.",
   "Fontes: Reclame Aqui, snapshots públicos recentes. Ranking:": "Sources: Reclame Aqui, recent public snapshots. Ranking:",
   "casas de apostas": "betting brands",
