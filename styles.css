@@ -374,6 +374,12 @@ body:has(.slide.close.active) .topbar > .logo {
   margin-top: 32px;
 }
 
+.close.cover .lead {
+  max-width: 860px !important;
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+
 .pills {
   display: flex;
   gap: 14px;

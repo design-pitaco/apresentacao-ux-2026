@@ -388,7 +388,7 @@ const en = {
 
   "Fechamento": "Closing",
   "Confiança é produto": "Trust is product",
-  "O usuário não busca só apostar. Ele precisa entender regras, acompanhar status, sacar com confiança e resolver problemas sem atrito.": "Users are not only trying to bet. They need to understand rules, track status, withdraw with confidence and resolve problems without friction.",
+  "O usuário não busca só apostar. Ele precisa entender regras, acompanhar status, sacar com confiança e resolver problemas sem atrito.": "Users need to understand rules, track status, withdraw with confidence and resolve issues without friction.",
 
   "Fonte: Paysafe/Sapio Research, World Cup 2026 report, coluna Brazil.": "Source: Paysafe/Sapio Research, World Cup 2026 report, Brazil column.",
   "Fonte: Procon-SP, Pesquisa Comportamental Jogos e Apostas 2026.": "Source: Procon-SP, 2026 Behavioral Survey on Games and Betting.",
