@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pesquisa UX 2026 - Rei do Pitaco</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <aside class="desktop-only" aria-label="Aviso de desktop">
+      <div class="desktop-icon" aria-hidden="true">
+        <span></span>
+      </div>
+      <h1>Visualização desktop</h1>
+      <p>Esta apresentação foi desenhada para telas maiores. Acesse em um desktop ou aumente a largura do navegador.</p>
+      <small>Largura mínima recomendada: 1000px</small>
+    </aside>
+    <div class="deck-shell" aria-live="polite">
+      <header class="topbar">
+        <img class="logo" src="./assets/logo.svg" alt="Rei do Pitaco" />
+        <div class="lang-switch" role="group" aria-label="Idioma da apresentação">
+          <button class="lang-button active" type="button" data-lang="pt" aria-pressed="true">PT</button>
+          <button class="lang-button" type="button" data-lang="en" aria-pressed="false">ENG</button>
+        </div>
+      </header>
+
+      <main class="slides" id="slides">
+        <section class="slide cover" data-title="Capa">
+          <div class="cover-grid">
+            <div class="cover-copy">
+              <img class="cover-logo" src="./assets/logo.svg" alt="Rei do Pitaco" />
+              <h1>Como o Rei do Pitaco pode ganhar<br />confiança no Brasil</h1>
+              <p class="lead">O que o usuário brasileiro valoriza em apostas e cassino, e onde o produto precisa evoluir.</p>
+            </div>
+          </div>
+          <footer class="source-hidden" aria-hidden="true"></footer>
+        </section>
+
+        <section class="slide" data-title="Tese executiva">
+          <p class="eyebrow">Tese executiva</p>
+          <h2>Confiança é a principal experiência de UX em 2026</h2>
+          <p class="sub">Marca, pagamento, regra e suporte só viram confiança quando o produto explica cada estado crítico.</p>
+          <div class="metric-row">
+            <article class="metric"><strong>25,2M</strong><span>apostadores em sites/apps autorizados</span><small>Brasil já opera em escala no mercado regulado em 2025.</small></article>
+            <article class="metric"><strong>42% / 34%</strong><span>marca confiável / saque fácil</span><small>Recorte Brasil: os critérios sensíveis são confiança e pagamento.</small></article>
+            <article class="metric"><strong>21,2M</strong><span>acessos a páginas de bets no RA</span><small>Busca por reputação cresceu de 11,5M em 2023 para 21,2M em 2025.</small></article>
+            <article class="metric"><strong>42,99%</strong><span>dor ligada a pagamento de prêmio</span><small>Procon-SP mostra ansiedade depois da relação iniciada.</small></article>
+          </div>
+          <div class="trust-contrast">
+            <span>A confiança do usuário é construída no</span>
+            <strong>fluxo,</strong>
+            <em>não no discurso.</em>
+          </div>
+          <footer>Fontes: SPA/MF; Paysafe/Sapio, coluna Brazil; Reclame Aqui; Procon-SP.</footer>
+        </section>
+
+        <section class="slide" data-title="Escolha e retenção">
+          <p class="eyebrow">Escolha e retenção</p>
+          <h2>O usuário escolhe pela confiança e fica pela experiência</h2>
+          <p class="sub">No recorte Brasil, bônus, odds e mídia importam, mas os dados de escolha colocam confiança e pagamento no topo.</p>
+          <div class="split wide-left choice-stack">
+            <div class="bar-list">
+              <div class="bar" style="--v:42"><span>Marca em que confio</span><i></i><b>42%</b></div>
+              <div class="bar" style="--v:34"><span>Saques rápidos e fáceis</span><i></i><b>34%</b></div>
+              <div class="bar" style="--v:28"><span>Boas odds</span><i></i><b>28%</b></div>
+              <div class="bar" style="--v:22"><span>Boas promoções</span><i></i><b>22%</b></div>
+              <div class="bar" style="--v:22"><span>Método preferido para depositar/sacar</span><i></i><b>22%</b></div>
+              <div class="bar" style="--v:20"><span>Depósitos rápidos e fáceis</span><i></i><b>20%</b></div>
+              <div class="bar" style="--v:18"><span>Melhor UX / fácil de usar</span><i></i><b>18%</b></div>
+              <div class="bar" style="--v:17"><span>Vários esportes/eventos</span><i></i><b>17%</b></div>
+            </div>
+            <aside class="takeaway no-box">
+              <strong>O produto não pode ser apenas fácil de apostar.<br />Precisa ser fácil de confiar.</strong>
+              <p>Apostas, Pix, saque, KYC, promoção e suporte devem compartilhar uma mesma gramática de status.</p>
+            </aside>
+          </div>
+          <footer>Fonte: Paysafe/Sapio Research, World Cup 2026 report, coluna Brazil.</footer>
+        </section>
+
+        <section class="slide" data-title="Ansiedade">
+          <p class="eyebrow">Ansiedade</p>
+          <h2>Produto deve resolver incerteza, não só fricção</h2>
+          <p class="sub">Em apostas e cassino, o clique a mais pesa menos que a dúvida sobre dinheiro, regra, conta e resultado.</p>
+          <table class="matrix">
+            <thead><tr><th>Momento</th><th>Pergunta emocional</th><th>Risco de UX</th></tr></thead>
+            <tbody>
+              <tr><td>Cadastro</td><td>Esse app é seguro?</td><td>Abandono antes do depósito</td></tr>
+              <tr><td>Depósito Pix</td><td>Meu dinheiro caiu?</td><td>Ansiedade sem confirmação</td></tr>
+              <tr><td>Primeira aposta</td><td>Entendi o que estou apostando?</td><td>Erro, arrependimento</td></tr>
+              <tr><td>Aposta ao vivo</td><td>A odd mudou? Entrou?</td><td>Percepção de instabilidade</td></tr>
+              <tr><td>Resultado</td><td>Ganhei mesmo?</td><td>Reclamação sobre regra</td></tr>
+              <tr><td>Saque</td><td>Vou receber?</td><td>Momento máximo de churn</td></tr>
+              <tr><td>Conta em análise</td><td>Fui bloqueado?</td><td>Reclamação pública</td></tr>
+              <tr><td>Promoção</td><td>Tem pegadinha?</td><td>Propaganda enganosa</td></tr>
+              <tr><td>Suporte</td><td>Alguém resolve?</td><td>Escalada para RA</td></tr>
+            </tbody>
+          </table>
+          <footer class="source-hidden" aria-hidden="true"></footer>
+        </section>
+
+        <section class="slide" data-title="Jornada macro">
+          <p class="eyebrow">Jornada macro</p>
+          <h2>A jornada precisa ser medida como fluxo de confiança</h2>
+          <p class="sub">O funil de conversão é insuficiente se não mede os sinais que reduzem ansiedade.</p>
+          <table class="matrix journey-table">
+            <thead><tr><th>Etapa</th><th>O que o usuário quer</th><th>Ansiedade</th><th>Sinal de confiança</th><th>Métrica</th></tr></thead>
+            <tbody>
+              <tr><td>Aquisição</td><td>segurança</td><td>é confiável?</td><td>reputação</td><td>CTR de tráfego qualificado</td></tr>
+              <tr><td>Cadastro</td><td>simplicidade</td><td>dados sensíveis</td><td>clareza</td><td>taxa de abandono</td></tr>
+              <tr><td>Depósito Pix</td><td>saldo</td><td>caiu?</td><td>status</td><td>Pix pendente: taxa e tempo</td></tr>
+              <tr><td>1ª aposta/jogo</td><td>entender</td><td>entendi?</td><td>confirmação</td><td>taxa de erro</td></tr>
+              <tr><td>Resultado</td><td>explicação</td><td>por quê?</td><td>regra</td><td>taxa de contestação</td></tr>
+              <tr><td>Saque</td><td>receber</td><td>vão pagar?</td><td>prazo/SLA</td><td>tempo de saque p90/p99</td></tr>
+              <tr><td>Suporte</td><td>resolução</td><td>vou ser ouvido?</td><td>protocolo</td><td>tempo de resolução</td></tr>
+              <tr><td>Reputação</td><td>prova social</td><td>é seguro?</td><td>nota/solução</td><td>reclamações RA / 10k usuários</td></tr>
+              <tr><td>Retenção</td><td>voltar</td><td>vale ficar?</td><td>controle</td><td>taxa de churn</td></tr>
+            </tbody>
+          </table>
+          <footer class="source-hidden" aria-hidden="true"></footer>
+        </section>
+
+        <section class="slide" data-title="Depósito Pix">
+          <p class="eyebrow">Depósito</p>
+          <h2>Pix-only não elimina o problema, muda o foco da UX</h2>
+          <p class="sub">Se todo mundo usa Pix, a vantagem passa a ser confiabilidade, estado e recuperação de erro.</p>
+          <div class="pix-flow">
+            <article><span>Passo 1</span><strong>Gerar Pix</strong><p>código claro, titularidade e validade visíveis</p></article>
+            <article><span>Passo 2</span><strong>Pagar</strong><p>orientação objetiva para concluir no banco</p></article>
+            <article><span>Passo 3</span><strong>Processando</strong><p>status em tempo real enquanto confirma</p></article>
+            <article><span>Sucesso</span><strong>Saldo disponível</strong><p>feedback imediato, recibo e histórico</p></article>
+            <article><span>Exceção</span><strong>Atraso</strong><p>prazo esperado, status pendente e próximo passo</p></article>
+            <article><span>Exceção</span><strong>Falha</strong><p>motivo simples, nova tentativa e canal de suporte</p></article>
+          </div>
+          <div class="pix-support"><strong>Pix é padrão de mercado, não diferencial.</strong><span>Com Pix como padrão, o diferencial passa a ser clareza de status e recuperação de erro.</span></div>
+          <footer>Fonte: Paysafe/Sapio Research, World Cup 2026 report, coluna Brazil.</footer>
+        </section>
+
+        <section class="slide" data-title="Saque">
+          <p class="eyebrow">Saque</p>
+          <h2>Saque é o principal momento de confiança do produto</h2>
+          <p class="sub">É quando o usuário valida se a casa paga mesmo. Uma jornada muda aqui destrói a marca.</p>
+          <div class="metric-row withdraw-cards">
+            <article class="metric"><strong>42,99%</strong><span>problemas com pagamento de prêmio</span><small>Principal problema citado por consumidores com problemas no Procon-SP.</small></article>
+            <article class="metric"><strong>01</strong><span>pedido recebido</span><small>recibo, horário e valor solicitado.</small></article>
+            <article class="metric"><strong>02</strong><span>status com prazo</span><small>processando, em análise ou pendência KYC com SLA.</small></article>
+            <article class="metric"><strong>03</strong><span>próximo passo claro</span><small>comprovante, documento necessário ou canal de escalonamento.</small></article>
+          </div>
+          <div class="pix-support"><strong>Um saque nunca deveria ficar mudo.</strong><span>O produto precisa mostrar pedido, prazo, motivo de análise e próximo passo sem obrigar o usuário a procurar suporte.</span></div>
+          <footer>Fonte: Procon-SP, Pesquisa Comportamental Jogos e Apostas 2026.</footer>
+        </section>
+
+        <section class="slide" data-title="KYC e risco">
+          <p class="eyebrow">KYC e risco</p>
+          <h2>Bloqueio sem explicação vira desconfiança imediata</h2>
+          <p class="sub">Mesmo uma análise legítima parece injusta quando a comunicação é vaga.</p>
+          <table class="matrix">
+            <thead><tr><th>O que medir</th><th>Indicador</th><th>Por que importa</th></tr></thead>
+            <tbody>
+              <tr><td>Volume</td><td>contas em análise por 10 mil usuários</td><td>dimensionar ansiedade operacional</td></tr>
+              <tr><td>Motivo</td><td>motivos mais frequentes</td><td>separar fraude, documento e comportamento</td></tr>
+              <tr><td>Tempo</td><td>média, p90 e p99 de análise</td><td>transformar espera em SLA</td></tr>
+              <tr><td>Reversão</td><td>taxa de reversão/contestação</td><td>identificar falso positivo</td></tr>
+              <tr><td>Mensagem</td><td>copy exibida no app</td><td>explicar sem expor regra antifraude</td></tr>
+              <tr><td>Canal</td><td>recurso e status de documentos</td><td>reduzir escalada pública</td></tr>
+            </tbody>
+          </table>
+          <div class="pix-support"><strong>Quando o produto precisa negar, bloquear ou revisar, ele deve explicar sem expor risco antifraude.</strong><span>Senacon cita contas bloqueadas sem explicação, bônus com regras ocultas e atendimento ineficiente.</span></div>
+          <footer>Fonte: Senacon/MJSP, alerta sobre riscos das bets, maio/2025.</footer>
+        </section>
+
+        <section class="slide" data-title="Aposta e resultado">
+          <p class="eyebrow">Aposta e resultado</p>
+          <h2>O usuário precisa entender por que ganhou, perdeu ou anulou</h2>
+          <p class="sub">Mesmo com a regra correta, falta de clareza na liquidação gera dúvida e contestação.</p>
+          <div class="timeline">
+            <article><span>T1</span><strong>Criada</strong><p>seleções e odds escolhidas</p></article>
+            <article><span>T2</span><strong>Aceita</strong><p>odd final confirmada</p></article>
+            <article><span>T3</span><strong>Em andamento</strong><p>mudanças e suspensões visíveis</p></article>
+            <article><span>T4</span><strong>Liquidada / anulada</strong><p>resultado aplicado</p></article>
+            <article><span>T5</span><strong>Motivo</strong><p>explicação em linguagem simples</p></article>
+            <article><span>T6</span><strong>Regra aplicável</strong><p>link da regra no contexto</p></article>
+          </div>
+          <div class="pix-support"><strong>Revisar regras onde a percepção do usuário mais diverge da liquidação.</strong><span>Mudança de odd, mercado suspenso, cash out indisponível, jogador não titular e mercados específicos precisam de explicação no contexto.</span></div>
+          <footer class="source-hidden" aria-hidden="true"></footer>
+        </section>
+
+        <section class="slide" data-title="Promoções">
+          <p class="eyebrow">Promoções</p>
+          <h2>Promoção boa é a que o usuário entende antes de aceitar</h2>
+          <p class="sub">Regras pouco claras geram frustração, percepção de pegadinha e reclamação.</p>
+          <div class="three-cols">
+            <article><h3>Antes do aceite</h3><ul><li>resumo em linguagem simples</li><li>exemplo prático</li><li>condições críticas visíveis</li></ul></article>
+            <article><h3>Durante o uso</h3><ul><li>barra de progresso</li><li>acompanhamento em tempo real</li><li>prazo sempre visível</li></ul></article>
+            <article><h3>Depois</h3><ul><li>motivo de perda/expiração</li><li>histórico do bônus</li><li>regra acessível</li></ul></article>
+          </div>
+          <div class="pix-support"><strong>Se a regra precisa de suporte para ser entendida, a UX falhou.</strong><span>Promoção precisa explicar condição, progresso e motivo de perda antes de virar reclamação.</span></div>
+          <footer>Fontes: Procon-SP Pesquisa Comportamental Jogos e Apostas 2026; Senacon/MJSP.</footer>
+        </section>
+
+        <section class="slide" data-title="Conteúdo e decisão">
+          <p class="eyebrow">Decisão</p>
+          <h2>Produto deve ajudar o usuário a decidir, não só apostar</h2>
+          <p class="sub">Conteúdo, estatísticas, odds e contexto esportivo fazem parte da experiência de produto.</p>
+          <div class="three-cols decision-cards">
+            <article><h3>Contexto do jogo</h3><ul><li>desempenho nos últimos jogos</li><li>histórico do confronto</li><li>mando de campo</li><li>lesões e suspensões</li></ul></article>
+            <article><h3>Informação acionável</h3><ul><li>escalações prováveis</li><li>odds explicadas</li><li>tipos de aposta disponíveis</li></ul></article>
+            <article><h3>Decisão responsável</h3><ul><li>separar dado de incentivo</li><li>não mascarar promoção como análise</li><li>mostrar risco antes da aposta</li></ul></article>
+            <article><h3>Aprendizado</h3><ul><li>guia para iniciantes</li><li>regras acessíveis</li><li>explicação no momento da aposta</li></ul></article>
+          </div>
+          <div class="pix-support"><strong>Apostadores mostram interesse em comentários e estatísticas.</strong><span>Oportunidade: reduzir sensação de aposta cega.</span></div>
+          <footer>Fonte: Globo/Offerwise, Pesquisa Bets 2025.</footer>
+        </section>
+
+        <section class="slide" data-title="Motivação">
+          <p class="eyebrow">Motivação</p>
+          <h2>Diversão e renda convivem na mesma jornada</h2>
+          <p class="sub">Produto e comunicação precisam reconhecer a tensão entre entretenimento e expectativa financeira.</p>
+          <div class="three-cols data">
+            <article><span>Globo/Offerwise</span><b>72%</b><strong>apostam por diversão</strong><p>38% citam complementar renda/investimentos</p></article>
+            <article><span>Datafolha</span><b>46%</b><strong>dos usuários veem como renda extra</strong><p>10% dos brasileiros dizem usar bets/cassinos online</p></article>
+            <article><span>ANBIMA/Datafolha</span><b>39%</b><strong>buscam dinheiro rápido em necessidade</strong><p>17% da população fez apostas online em 2025</p></article>
+          </div>
+          <div class="pix-support"><strong>Jogo responsável precisa aparecer como UX de controle.</strong><span>Limites, alertas, histórico, pausas e autoexclusão devem ser parte visível da jornada.</span></div>
+          <footer>Fontes: Globo/Offerwise, ANBIMA/Datafolha e Datafolha/Poder360.</footer>
+        </section>
+
+        <section class="slide" data-title="CRM">
+          <p class="eyebrow">CRM</p>
+          <h2>Mensagem também é experiência de produto</h2>
+          <p class="sub">Comunicação excessiva pode virar dor de consumidor.</p>
+          <div class="crm-layout">
+            <table class="matrix crm-table">
+              <thead><tr><th>Camada</th><th>Decisão de produto</th><th>Sinal de confiança</th></tr></thead>
+              <tbody>
+                <tr><td>Frequência</td><td>limite de mensagens por usuário e canal</td><td>não parecer pressão</td></tr>
+                <tr><td>Risco</td><td>segmentar comportamento sensível</td><td>proteger usuários vulneráveis</td></tr>
+                <tr><td>Contexto</td><td>distinguir serviço de promoção</td><td>alerta útil vs incentivo</td></tr>
+                <tr><td>Controle</td><td>preferências de mensagens</td><td>usuário no comando</td></tr>
+                <tr><td>Linguagem</td><td>cuidado após perdas/ganhos</td><td>evitar empurrão emocional</td></tr>
+              </tbody>
+            </table>
+            <article class="metric crm-stat"><strong>23,53%</strong><span>citam mensagens constantes incentivando jogar/apostar</span><small>Procon-SP, consumidores que relataram problemas.</small></article>
+          </div>
+          <div class="pix-support"><strong>CRM deve aumentar confiança e utilidade, não parecer pressão.</strong><span>Frequência, contexto, controle e linguagem precisam ser tratados como decisões de produto.</span></div>
+          <footer>Fonte: Procon-SP Pesquisa Comportamental Jogos e Apostas 2026.</footer>
+        </section>
+
+        <section class="slide" data-title="Suporte">
+          <p class="eyebrow">Suporte</p>
+          <h2>Suporte é parte da UX, não só canal de atendimento</h2>
+          <p class="sub">Quando o usuário procura suporte, ele já está frustrado. O produto precisa reduzir esforço.</p>
+          <div class="support-flow">
+            <article><span>S1</span><strong>Problema detectado</strong><p>saque, KYC, promoção ou liquidação</p></article>
+            <article><span>S2</span><strong>Contexto herdado</strong><p>produto envia status, ID, regra e histórico</p></article>
+            <article><span>S3</span><strong>Resposta específica</strong><p>macro contextual, não genérica</p></article>
+            <article><span>S4</span><strong>Escalonamento</strong><p>humano com protocolo visível</p></article>
+            <article><span>S5</span><strong>Resolução</strong><p>status final + pesquisa simples</p></article>
+          </div>
+          <div class="pix-support"><strong>Se o usuário precisa explicar tudo de novo, o produto não está ajudando o suporte.</strong><span>Central contextual, histórico do caso, status do atendimento e integração com saque, KYC, promoção e liquidação reduzem esforço.</span></div>
+          <footer>Fontes: Senacon/MJSP e análise a partir do brief.</footer>
+        </section>
+
+        <section class="slide" data-title="Reclame Aqui">
+          <p class="eyebrow">Reclame Aqui</p>
+          <h2>Reclame Aqui é um espelho público da experiência</h2>
+          <p class="sub">A reclamação pública geralmente nasce de uma jornada que falhou antes.</p>
+          <div class="bar-list compact-bars">
+            <div class="bar" style="--v:54"><span>Acessos a páginas de casas de apostas em 2023</span><i></i><b>11,5M</b></div>
+            <div class="bar" style="--v:100"><span>Acessos em 2025</span><i></i><b>21,2M</b></div>
+          </div>
+          <div class="process-row">
+            <span>classificar por jornada</span><span>separar causa operacional vs comunicação</span><span>medir por 10 mil usuários/saques</span><span>integrar ao backlog</span><span>dono claro + prazo no backlog</span>
+          </div>
+          <div class="pix-support"><strong>Não é só reputação.</strong><span>É pesquisa qualitativa contínua para classificar causas, priorizar backlog e reduzir recorrência.</span></div>
+          <footer>Fonte: Reclame Aqui, guia de apostas seguras 2026.</footer>
+        </section>
+
+        <section class="slide" data-title="Benchmark">
+          <p class="eyebrow">Benchmark</p>
+          <h2>Rei do Pitaco tem vulnerabilidade pública de confiança</h2>
+          <p class="sub">O problema não é o volume absoluto. É a comparação que o usuário faz antes de depositar.</p>
+          <div class="bar-list score benchmark-score">
+            <div class="benchmark-note">+ 15 casas têm nota acima de 9,0 no ranking RA.</div>
+            <div class="bar" style="--v:90"><span>Betano</span><i></i><b>9,0/10</b></div>
+            <div class="bar" style="--v:83"><span>Superbet</span><i></i><b>8,3/10</b></div>
+            <div class="bar" style="--v:76"><span>Bet365</span><i></i><b>7,6/10</b></div>
+            <div class="bar featured" style="--v:69"><span>Rei do Pitaco</span><i></i><b>6,9/10</b></div>
+          </div>
+          <div class="pix-support"><strong>Se o usuário pesquisa reputação antes de depositar, nota pública vira parte da UX de aquisição.</strong><span>Notas observadas em snapshots públicos recentes.</span></div>
+          <footer>Fontes: Reclame Aqui, snapshots públicos recentes. Ranking: <a href="https://www.reclameaqui.com.br/segmentos/apostas/casa-de-aposta/">casas de apostas</a>.</footer>
+        </section>
+
+        <section class="slide" data-title="Backlog">
+          <p class="eyebrow">Backlog</p>
+          <h2>Reclamações devem virar hipóteses de produto</h2>
+          <p class="sub">Não basta responder. Temas recorrentes precisam virar investigação de causa raiz.</p>
+          <table class="matrix">
+            <thead><tr><th>Arquétipo público</th><th>Possível causa de UX/produto</th><th>Ação de produto</th></tr></thead>
+            <tbody>
+              <tr><td>Saque bloqueado/retido</td><td>falta de status, prazo ou explicação</td><td>status + motivo + SLA</td></tr>
+              <tr><td>Conta suspensa</td><td>comunicação genérica de KYC/risco</td><td>fluxo de análise + recurso</td></tr>
+              <tr><td>Aposta anulada</td><td>regra pouco visível</td><td>linha do tempo + regra</td></tr>
+              <tr><td>Cashback/bônus não creditado</td><td>termos confusos ou sem progresso</td><td>resumo + barra de requisito</td></tr>
+              <tr><td>Saldo indisponível</td><td>saldo sacável vs bônus pouco claro</td><td>separação visual de saldos</td></tr>
+              <tr><td>Suporte ruim</td><td>respostas genéricas</td><td>macros específicas + contexto</td></tr>
+              <tr><td>Mensagens excessivas</td><td>CRM sem limite ou segmentação de risco</td><td>limites, opt-out e segmentação</td></tr>
+            </tbody>
+          </table>
+          <footer class="source-hidden" aria-hidden="true"></footer>
+        </section>
+
+        <section class="slide" data-title="Dashboard">
+          <p class="eyebrow">Dashboard</p>
+          <h2>Confiança precisa virar dashboard semanal de produto</h2>
+          <p class="sub">O que não medimos vira percepção pública.</p>
+          <div class="dashboard">
+            <article><span>M1</span><strong>Cadastro</strong><p>conversão, abandono, falha de validação</p></article>
+            <article><span>M2</span><strong>Depósito Pix</strong><p>sucesso, tempo, pendentes, suporte</p></article>
+            <article><span>M3</span><strong>Saque Pix</strong><p>média, p90/p99, análise, recusas</p></article>
+            <article><span>M4</span><strong>KYC/conta</strong><p>análises/10k, tempo, reversão</p></article>
+            <article><span>M5</span><strong>Apostas</strong><p>canceladas, contestadas, regra acessada</p></article>
+            <article><span>M6</span><strong>Promoções</strong><p>dúvidas, abandono, reclamações</p></article>
+            <article><span>M7</span><strong>CRM</strong><p>opt-out, reclamação/campanha, frequência</p></article>
+            <article><span>M8</span><strong>Suporte</strong><p>FRT, TTR, reabertura, satisfação</p></article>
+            <article><span>M9</span><strong>Reclame Aqui</strong><p>nota, solução, voltaria, reclamações RA / 10k usuários</p></article>
+          </div>
+          <div class="pix-support"><strong>Revisão semanal na Product Weekly.</strong><span>O dashboard só funciona se cada métrica tiver dono, hipótese e ação de produto associada.</span></div>
+          <footer class="source-hidden" aria-hidden="true"></footer>
+        </section>
+
+        <section class="slide" data-title="Plano de prioridades">
+          <p class="eyebrow">Prioridades</p>
+          <h2>Prioridades devem corrigir causas antes de comunicar confiança</h2>
+          <p class="sub">Organizar o backlog por impacto nas jornadas críticas, não por calendário fixo.</p>
+          <div class="three-cols roadmap">
+            <article><span>Prioridade 1</span><h3>Diagnóstico de jornada</h3><p class="card-note">Exemplos fictícios.</p><ul><li>top reclamações por etapa</li><li>tempo real de saque: média, p90, p99</li><li>auditoria de erros/status</li><li>termos e microcopy de promoções</li><li>dashboard RA + suporte + produto</li></ul></article>
+            <article><span>Prioridade 2</span><h3>Correções de UX</h3><p class="card-note">Exemplos fictícios.</p><ul><li>revisão de navegação e UI</li><li>rever fluxo e UI de saque</li><li>conta em análise</li><li>histórico e status da aposta</li><li>bônus em linguagem simples</li></ul></article>
+            <article><span>Prioridade 3</span><h3>Governança e escala</h3><p class="card-note">Exemplos fictícios.</p><ul><li>dono claro + prazo no backlog</li><li>melhorias de confiança no app</li><li>OKR de reputação pública</li><li>playbook para eventos grandes</li><li>governança com Compliance</li></ul></article>
+          </div>
+          <div class="pix-support"><strong>A meta não é apenas subir nota.</strong><span>É reduzir as causas que fazem o usuário duvidar do produto, começando pelos pontos de maior ansiedade.</span></div>
+          <footer class="source-hidden" aria-hidden="true"></footer>
+        </section>
+
+        <section class="slide appendix" data-title="Metodologia e fontes">
+          <p class="eyebrow">Apêndice</p>
+          <h2>Metodologia e fontes</h2>
+          <p class="sub">Números retirados de pesquisas e links públicos, com recortes Brasil quando disponíveis.</p>
+          <div class="source-grid">
+            <a href="https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/janeiro/em-um-ano-de-mercado-regulado-spa-registra-mais-de-25-mil-sites-ilegais-bloqueados">SPA/MF - mercado regulado</a>
+            <a href="https://www.paysafe.com/fileadmin/content/pdf/2026/ATWPP_World_Cup_2026_report.pdf">Paysafe - World Cup 2026 report, coluna Brazil</a>
+            <a href="https://www.procon.sp.gov.br/wp-content/uploads/2026/02/Relatorio-Pesq-Comp-Jogos-e-Apostas-2026.pdf">Procon-SP - pesquisa 2026</a>
+            <a href="https://www.procon.sp.gov.br/bets-40-dos-apostadores-se-endividam-constata-consulta-do-procon-sp/">Procon-SP - matéria bets</a>
+            <a href="https://www.gov.br/mj/pt-br/assuntos/noticias/senacon-alerta-sobre-os-riscos-provocados-pelo-crescimento-das-bets-no-brasil">Senacon - principais queixas</a>
+            <a href="https://cetic.br/pt/tics/domicilios/2025/individuos/C14/">TIC Domicílios 2025 - C14</a>
+            <a href="https://blog.reclameaqui.com.br/guia-apostas-seguras-reclame-aqui/">Reclame Aqui - guia 2026</a>
+            <a href="https://blog.reclameaqui.com.br/pesquisa-reclame-aqui-mostra-que-jogo-da-nfl-no-brasil-pode-atrair-novos-apostadores/">Reclame Aqui - reputação/NFL</a>
+            <a href="https://www.reclameaqui.com.br/segmentos/apostas/casa-de-aposta/">Reclame Aqui - ranking casas de apostas</a>
+            <a href="https://www.reclameaqui.com.br/empresa/rei-do-pitaco/">Reclame Aqui - Rei do Pitaco</a>
+            <a href="https://www.reclameaqui.com.br/empresa/betano/">Reclame Aqui - Betano</a>
+            <a href="https://www.reclameaqui.com.br/empresa/superbet-brasil/">Reclame Aqui - Superbet</a>
+            <a href="https://www.reclameaqui.com.br/empresa/bet365/">Reclame Aqui - Bet365</a>
+            <a href="https://www.reclameaqui.com.br/empresa/betmgm/analise/">Reclame Aqui - análise BetMGM</a>
+            <a href="https://superbet.bet.br/">Superbet - RA como ativo</a>
+            <a href="https://globoads.globo.com/conhecimento/globo-ads-insights/pesquisa-bets">Globo Ads / Offerwise</a>
+            <a href="https://downloads.ctfassets.net/fusu48vcnj17/6ev2D0FzsKiOWY9HsVek8Y/26de95a72e74c3cee8f26169b6fd8fd7/ResultadoPesquisaGloboAgo25.pdf">Pesquisa Bets 2025 - PDF</a>
+            <a href="https://www.anbima.com.br/pt_br/especial/raio-x-do-investidor-brasileiro.htm">ANBIMA/Datafolha - Raio X</a>
+            <a href="https://www.poder360.com.br/poder-pesquisas/46-dos-apostadores-veem-bets-como-renda-extra-diz-datafolha/">Datafolha/Poder360 - renda extra</a>
+            <a href="https://www.poder360.com.br/poder-midia/bets-investiram-r327-milhoes-em-publicidade-no-1o-trimestre-de-2026/">Tunad/Poder360 - publicidade</a>
+          </div>
+          <footer>Fontes: links públicos listados neste apêndice.</footer>
+        </section>
+
+        <section class="slide cover close" data-title="Fechamento">
+          <div class="cover-grid">
+            <div class="cover-copy">
+              <img class="cover-logo" src="./assets/logo.svg" alt="Rei do Pitaco" />
+              <h1>Confiança é produto</h1>
+              <p class="lead">O usuário não busca só apostar. Ele precisa entender regras, acompanhar status, sacar com confiança e resolver problemas sem atrito.</p>
+            </div>
+          </div>
+          <footer class="source-hidden" aria-hidden="true"></footer>
+        </section>
+      </main>
+
+      <div class="controls" aria-label="Navegação da apresentação">
+        <button class="nav-button" id="prevSlide" aria-label="Slide anterior">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M19 12H5"></path>
+            <path d="m12 19-7-7 7-7"></path>
+          </svg>
+        </button>
+        <button class="nav-button" id="nextSlide" aria-label="Próximo slide">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
